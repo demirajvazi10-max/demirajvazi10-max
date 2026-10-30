@@ -38,7 +38,11 @@ Together, these make up a growing family of apps — every one built to work equ
 
 #### Custom work
 
-I also build websites, bots and apps to order — accessible from the first line, for everyone who will use them.
+I also build websites, bots and apps to order — accessible from the first line, for everyone who will use them. Get in touch:
+
+- 📧 Email: [demir.ajvazi10@gmail.com](mailto:demir.ajvazi10@gmail.com)
+- 📞 Phone: [+381 60 445 0245](tel:+381604450245)
+- 💬 Telegram: [@Ajvazi91](https://t.me/Ajvazi91)
 
 #### Support my work
 
