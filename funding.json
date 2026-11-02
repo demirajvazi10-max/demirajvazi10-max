@@ -1,0 +1,388 @@
+{
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+  "version": "v1.1.0",
+  "entity": {
+    "type": "individual",
+    "role": "owner",
+    "name": "Demir Ajvazi",
+    "email": "demir.ajvazi10@gmail.com",
+    "phone": "+381604450245",
+    "description": "Independent software developer from Serbia, building the Ultra family of open-source applications since April 2026: creative tools (video, audio, music and photo editing, captions, recording, audio description), security and system utilities, Android apps and AI tools. Everything is designed so that keyboard and screen reader users and mouse users get the same full experience. I use the JAWS screen reader every day myself, so every feature is tested that way from day one.\n\nBackground: degree in English Language and Literature (University of Novi Sad), freelance English-Serbian translation, and about fifteen years of repairing and servicing computers and phones before moving into software development.\n\nIn about six months the Ultra project has grown to ten public repositories and more than fifteen applications, almost all under GPL-3.0, with installers and automated GitHub release pipelines. Funding lets me keep this pace as my main work instead of a side effort: finishing and maintaining the existing apps, paying real users to test them, and building the next ones.",
+    "webpageUrl": {
+      "url": "https://github.com/demirajvazi10-max"
+    }
+  },
+  "projects": [
+    {
+      "guid": "ultra-creative-suite",
+      "name": "Ultra Creative Suite",
+      "description": "A complete open-source production studio for Windows, built keyboard- and screen-reader-first and fully usable with a mouse. Apps in the suite: Ultra Video Editor (multi-track timeline, video layers, colour LUTs, export at the source frame rate, AI audio description, AI music video creator, Whisper subtitles), Ultra Audio Editor (multi-track editing, effects, pitch shift, AI vocal and instrument separation with Demucs), Ultra Composer (a DAW with a native C++ real-time engine, MIDI, VST3 and SoundFont instruments, multi-track mixer, arranger and arranger-keyboard style auto-accompaniment), Ultra Studio (photo editing and layout with AI object extraction via Segment Anything and AI proofreading), Ultra Captions (subtitle editor with Whisper transcription and keyboard timing), Ultra Record (multi-track recorder with audio clipping alerts instead of visual meters), Ultra Player (podcast and audiobook player) and Ultra Cast (screen recorder).\n\nLocal AI runs through Ollama and Whisper, so most features work offline with no API key and no subscription. The apps share one accessibility layer (Ultra Accessible UI Kit), ship with installers and tag-based GitHub release workflows, and are licensed GPL-3.0. Most creative software is designed for the mouse first and made accessible later, if ever; this suite starts from the other side.",
+      "webpageUrl": {
+        "url": "https://github.com/demirajvazi10-max/Ultra-Creative-suite",
+        "wellKnown": "https://github.com/demirajvazi10-max/Ultra-Creative-suite/blob/main/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/demirajvazi10-max/Ultra-Creative-suite",
+        "wellKnown": "https://github.com/demirajvazi10-max/Ultra-Creative-suite/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:GPL-3.0"
+      ],
+      "tags": [
+        "accessibility",
+        "screen-reader",
+        "video-editor",
+        "audio-editor",
+        "daw",
+        "photo-editor",
+        "multimedia",
+        "ai",
+        "wpf",
+        "dotnet"
+      ]
+    },
+    {
+      "guid": "ultra-video-editor",
+      "name": "Ultra Video Editor",
+      "description": "The flagship of the Ultra Creative Suite: a non-linear video editor that is completely usable with a screen reader and equally comfortable with a mouse. Version 2.0 adds video layers (video over video) and export at the source frame rate instead of a fixed 30 FPS.\n\nFeatures include a multi-track timeline with markers and cut-at-all-markers, transitions, text and logo overlays, colour LUTs, hardware encoder detection, YouTube import, Whisper-based automatic subtitles, AI scene and image descriptions on request, AI audio description that is written by Gemini and mixed into the video with a natural voice, an AI music video creator, and a plain-language export summary that warns about problems such as silent gaps. Every action has a keyboard shortcut and spoken feedback through UI Automation, tested with JAWS and NVDA.\n\nThe long-term goal is an editor in which a blind editor works as comfortably as a sighted editor in Premiere Pro or DaVinci Resolve, measured feature by feature against the free version of Resolve.",
+      "webpageUrl": {
+        "url": "https://github.com/demirajvazi10-max/Ultra-Creative-suite/tree/main/UltraVideoEditor",
+        "wellKnown": "https://github.com/demirajvazi10-max/Ultra-Creative-suite/blob/main/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/demirajvazi10-max/Ultra-Creative-suite",
+        "wellKnown": "https://github.com/demirajvazi10-max/Ultra-Creative-suite/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:GPL-3.0"
+      ],
+      "tags": [
+        "video-editor",
+        "accessibility",
+        "screen-reader",
+        "multimedia",
+        "audio-description",
+        "subtitles",
+        "ffmpeg",
+        "whisper",
+        "ai",
+        "wpf"
+      ]
+    },
+    {
+      "guid": "ultra-composer",
+      "name": "Ultra Composer",
+      "description": "An accessible digital audio workstation and composer, positioned as an alternative to FL Studio, which is practically unusable with a screen reader. WPF interface on top of a native C++ real-time audio engine (PortAudio, RtMidi, VST3 SDK) connected through a C ABI.\n\nFeatures: computer-keyboard and MIDI input, VST3 and SoundFont instruments, a list-based sequencer (notes and chords can be typed by name or played in), an arranger for chaining patterns, a multi-track mixer with per-track instruments, volume, pan, mute and solo, Layer and Split performance modes, diatonic auto-harmonisation, and arranger-keyboard style auto-accompaniment with built-in and user-made rhythms, including oriental Hijaz scales and darbuka rhythms. Projects save to a single file, WAV export is built in, and the interface is available in English and Serbian with an in-app user guide.",
+      "webpageUrl": {
+        "url": "https://github.com/demirajvazi10-max/Ultra-Creative-suite/tree/main/UltraComposer",
+        "wellKnown": "https://github.com/demirajvazi10-max/Ultra-Creative-suite/blob/main/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/demirajvazi10-max/Ultra-Creative-suite",
+        "wellKnown": "https://github.com/demirajvazi10-max/Ultra-Creative-suite/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:GPL-3.0"
+      ],
+      "tags": [
+        "daw",
+        "music",
+        "audio",
+        "midi",
+        "vst",
+        "accessibility",
+        "screen-reader",
+        "cpp",
+        "multimedia",
+        "synthesizer"
+      ]
+    },
+    {
+      "guid": "ultra-audio-description-maker",
+      "name": "Ultra Audio Description Maker",
+      "description": "Adds audio description to any video: the narration that tells blind and low-vision viewers what happens on screen. AI analyses the video and writes short descriptions, the user reviews and edits them, and a natural voice speaks each one at the exact moment the action happens, in the pauses of the soundtrack, the way streaming services do it. Professional audio description is expensive and rare, so most online video has none; this tool lets any creator, teacher or organisation add it themselves.\n\nAvailable as a Windows desktop app (released), a browser extension that describes web videos live while you watch, and an Android app (in development). Opens local files or web links, downloads FFmpeg automatically, reports detailed progress, and uses the user's own Gemini key, so there is no subscription. English and Serbian interface.",
+      "webpageUrl": {
+        "url": "https://github.com/demirajvazi10-max/Ultra-AudioDescription-Maker",
+        "wellKnown": "https://github.com/demirajvazi10-max/Ultra-AudioDescription-Maker/blob/main/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/demirajvazi10-max/Ultra-AudioDescription-Maker",
+        "wellKnown": "https://github.com/demirajvazi10-max/Ultra-AudioDescription-Maker/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:GPL-3.0"
+      ],
+      "tags": [
+        "audio-description",
+        "accessibility",
+        "video",
+        "ai",
+        "text-to-speech",
+        "browser-extension",
+        "android",
+        "ffmpeg",
+        "wpf",
+        "media"
+      ]
+    },
+    {
+      "guid": "ultra-bridge",
+      "name": "Ultra Bridge",
+      "description": "An AI agent that translates screen reader commands between JAWS and NVDA, built on structured content (Sanity) so answers come from a curated dataset instead of guesswork. Switching screen readers is one of the hardest moments for a blind computer user, because years of muscle memory stop working; Ultra Bridge answers questions like \"what is the NVDA equivalent of this JAWS command\" instantly, including layered commands.\n\nPublic demo: https://ultra-bridge-xm71.vercel.app. The dataset is being extended with the complete command references of both screen readers, and moderated community contributions (without requiring a GitHub account) are planned, along with more screen readers such as VoiceOver.",
+      "webpageUrl": {
+        "url": "https://github.com/demirajvazi10-max/Ultra-Bridge",
+        "wellKnown": "https://github.com/demirajvazi10-max/Ultra-Bridge/blob/main/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/demirajvazi10-max/Ultra-Bridge",
+        "wellKnown": "https://github.com/demirajvazi10-max/Ultra-Bridge/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "accessibility",
+        "screen-reader",
+        "ai",
+        "agents",
+        "documentation",
+        "knowledge-base",
+        "javascript",
+        "assistive-technology"
+      ]
+    },
+    {
+      "guid": "ultra-shield",
+      "name": "Ultra Shield",
+      "description": "An accessible digital self-defence application for Windows with three modules in one shell: a scanner that checks files and packages against public threat-intelligence databases (VirusTotal hash lookups) with an on-demand malware scan, an education module that explains common internet threats in plain language, and a security hardening checklist. An application-level firewall in the spirit of the classic Outpost Firewall is planned next.\n\nSecurity software is often hard or impossible to use with a screen reader, which leaves blind users dependent on others for basic protection. Ultra Shield is built on the shared Ultra Accessible UI Kit and works the same way for keyboard, screen reader and mouse users.",
+      "webpageUrl": {
+        "url": "https://github.com/demirajvazi10-max/UltraShield",
+        "wellKnown": "https://github.com/demirajvazi10-max/UltraShield/blob/main/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/demirajvazi10-max/UltraShield",
+        "wellKnown": "https://github.com/demirajvazi10-max/UltraShield/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:GPL-3.0"
+      ],
+      "tags": [
+        "security",
+        "antivirus",
+        "privacy",
+        "accessibility",
+        "screen-reader",
+        "windows",
+        "education",
+        "wpf"
+      ]
+    },
+    {
+      "guid": "ultra-uninstaller",
+      "name": "Ultra Uninstaller",
+      "description": "A Windows uninstaller that also cleans up what programs leave behind, such as leftover files and registry entries, designed from the start to be fully usable with a screen reader. Most uninstaller and cleaner tools rely on visual lists, checkboxes and pop-ups that screen readers handle poorly; Ultra Uninstaller presents everything as accessible lists with clear spoken confirmation, and works just as well with a mouse.",
+      "webpageUrl": {
+        "url": "https://github.com/demirajvazi10-max/Ultra-Uninstaller",
+        "wellKnown": "https://github.com/demirajvazi10-max/Ultra-Uninstaller/blob/main/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/demirajvazi10-max/Ultra-Uninstaller",
+        "wellKnown": "https://github.com/demirajvazi10-max/Ultra-Uninstaller/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:GPL-3.0"
+      ],
+      "tags": [
+        "uninstaller",
+        "system-utilities",
+        "windows",
+        "accessibility",
+        "screen-reader",
+        "cleanup",
+        "wpf"
+      ]
+    },
+    {
+      "guid": "ultra-keyboard",
+      "name": "Ultra Keyboard",
+      "description": "An accessible Android keyboard with a 3x4 phone-style layout, for people who find full touch keyboards difficult: blind users, older users and anyone who prefers the classic keypad. Every key and action gives spoken accessibility feedback, and the interface is localised in English and Serbian. Written in Kotlin; currently in beta, with a Google Play release in preparation.",
+      "webpageUrl": {
+        "url": "https://github.com/demirajvazi10-max/Ultra-Keyboard",
+        "wellKnown": "https://github.com/demirajvazi10-max/Ultra-Keyboard/blob/main/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/demirajvazi10-max/Ultra-Keyboard",
+        "wellKnown": "https://github.com/demirajvazi10-max/Ultra-Keyboard/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:GPL-3.0"
+      ],
+      "tags": [
+        "android",
+        "keyboard",
+        "input-method",
+        "accessibility",
+        "kotlin",
+        "mobile"
+      ]
+    },
+    {
+      "guid": "ultra-youtube-downloader",
+      "name": "Ultra YouTube Downloader",
+      "description": "A standalone, fully accessible Windows app for downloading YouTube video or audio: a single file or a whole playlist, with a track picker for choosing specific items, MP3 quality selection, a chosen save folder and spoken progress. Built on yt-dlp and FFmpeg; equally usable with a screen reader and a mouse.",
+      "webpageUrl": {
+        "url": "https://github.com/demirajvazi10-max/ultraYoutubeDownloader",
+        "wellKnown": "https://github.com/demirajvazi10-max/ultraYoutubeDownloader/blob/main/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/demirajvazi10-max/ultraYoutubeDownloader",
+        "wellKnown": "https://github.com/demirajvazi10-max/ultraYoutubeDownloader/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:GPL-3.0"
+      ],
+      "tags": [
+        "downloader",
+        "youtube",
+        "media",
+        "accessibility",
+        "windows",
+        "yt-dlp",
+        "wpf"
+      ]
+    },
+    {
+      "guid": "ai-camera",
+      "name": "AI Camera (Fan Edition)",
+      "description": "A web camera app that describes what it sees out loud, built for blind and low-vision users. It sends a photo to Gemini and reads the answer aloud, with modes for general scene description, product description, describing a person and reading text, plus a playful Fan Mode that reacts to team jerseys and sports gear like a stadium commentator. Runs in the browser with no installation; an Android version is planned.",
+      "webpageUrl": {
+        "url": "https://github.com/demirajvazi10-max/ai-camera-fan-edition",
+        "wellKnown": "https://github.com/demirajvazi10-max/ai-camera-fan-edition/blob/main/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/demirajvazi10-max/ai-camera-fan-edition",
+        "wellKnown": "https://github.com/demirajvazi10-max/ai-camera-fan-edition/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "accessibility",
+        "ai",
+        "computer-vision",
+        "camera",
+        "assistive-technology",
+        "web",
+        "javascript"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "bank",
+        "type": "bank",
+        "address": "Details on request by e-mail",
+        "description": "International bank transfer (SWIFT/SEPA) to my account in Serbia. Preferred for grants and larger contributions; please e-mail me for the details."
+      },
+      {
+        "guid": "github-sponsors",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/demirajvazi10-max",
+        "description": "GitHub Sponsors: one-time or monthly support directly on GitHub."
+      },
+      {
+        "guid": "ko-fi",
+        "type": "payment-provider",
+        "address": "https://ko-fi.com/ultracreativesuite",
+        "description": "Ko-fi: one-time or monthly support."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "developer-time",
+        "status": "active",
+        "name": "Full-time development",
+        "description": "Lets me work on the Ultra apps full time: new features, fixes from user reports, releases, documentation and user support across every project listed here.",
+        "amount": 3000,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "bank",
+          "github-sponsors",
+          "ko-fi"
+        ]
+      },
+      {
+        "guid": "ai-infrastructure",
+        "status": "active",
+        "name": "AI and infrastructure",
+        "description": "AI API credits (audio description, image description and the planned voice assistant), build and test infrastructure, and a cloud rendering pilot for users without powerful computers.",
+        "amount": 250,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "bank",
+          "github-sponsors",
+          "ko-fi"
+        ]
+      },
+      {
+        "guid": "user-testing",
+        "status": "active",
+        "name": "User testing and accessibility audits",
+        "description": "Paying blind, low-vision and sighted testers for structured feedback before each major release, and an independent accessibility audit of the flagship apps.",
+        "amount": 4000,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": [
+          "bank",
+          "github-sponsors",
+          "ko-fi"
+        ]
+      },
+      {
+        "guid": "distribution",
+        "status": "active",
+        "name": "Code signing and distribution",
+        "description": "A Windows code signing certificate (removes security warnings that confuse users), the Apple Developer Program, store registration fees and a project website.",
+        "amount": 600,
+        "currency": "USD",
+        "frequency": "yearly",
+        "channels": [
+          "bank",
+          "github-sponsors",
+          "ko-fi"
+        ]
+      },
+      {
+        "guid": "development-hardware",
+        "status": "active",
+        "name": "Development hardware",
+        "description": "A Mac for building and testing the planned iPhone apps, and a GPU workstation for running local AI models (Whisper, Ollama, Segment Anything, Demucs), so more features work offline with no API costs for users.",
+        "amount": 6500,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "bank",
+          "github-sponsors",
+          "ko-fi"
+        ]
+      },
+      {
+        "guid": "any-amount",
+        "status": "active",
+        "name": "Support in any amount",
+        "description": "Any one-time or recurring contribution helps keep the Ultra apps free and open source.",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "github-sponsors",
+          "ko-fi",
+          "bank"
+        ]
+      }
+    ]
+  }
+}
